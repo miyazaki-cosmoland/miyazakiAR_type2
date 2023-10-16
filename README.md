@@ -1,0 +1,1 @@
+# miyazakiAR_type2
