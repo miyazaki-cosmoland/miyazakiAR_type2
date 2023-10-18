@@ -37,7 +37,7 @@
             <a-camera gps-new-camera="simulateLatitude:35; simulateLongitude:135; gpsTimeInterval:36000;" rotation-reader ></a-camera>
         </a-scene>
        
-        <div id="current_date">
+        <text id="current_date">
         <script>
         date = new Date();
         year = date.getFullYear();
@@ -45,7 +45,7 @@
         day = date.getDate();
         document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
     </script>
-</div>
+        <a-text src="#current date" rotation="0 0 0" scale="12.8 6.4 1" position="1. -5 -10"></a-image> 
     
     </body>
 </html>
